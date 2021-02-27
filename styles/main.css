@@ -1,0 +1,165 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 0px;
+	font-size: 18px;
+	box-sizing: border-box;
+	color: #000000;	  
+}
+
+header  {
+	background-color:#e5e5e5;
+	padding:1px;
+	text-align:left;
+	display: flex;
+	
+} 
+.HeaderTitles   {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+
+} 
+
+header h1 {
+	font-weight: bold;
+	color: #000000;
+	font-size: 2em;
+	text-indent: 1px;
+	text-shadow: 3px 2px #ffffff;
+	vertical-align: center;
+	margin: 0px;
+} 	
+
+header h3 {
+	font-weight: bold;
+	color: #000000;
+	font-size: 1em;
+	text-indent: 1px;
+	vertical-align: center;
+	margin: 0px;
+//	line-height: 0px;
+} 
+
+
+header img {
+	padding: 0.5em 0.5em;
+	width: 100%;
+	max-width: 130px;
+	height: 100%;
+	max-height: 130px;
+}
+
+
+footer p {
+	font-size: .875em;
+	text-align: center;
+	background-color:#e5e5e5;
+	padding:10px;
+	margin-top:7px;
+}
+
+.menu {
+	width:20%;
+	text-align:center;
+}
+.menu a:link {
+	//  background-color:#e5e5e5;
+	padding:15px;
+	margin-top:7px;
+	display:block;
+	width:100%;
+	font-weight: bold;
+	color: #000000;
+
+}
+.menu a:hover {
+	//  background-color:#e5e5e5;
+	padding:15px;
+	margin-top:7px;
+	display:block;
+	width:100%;
+	font-weight: bold;
+	color: #008000;
+}
+.menu a:visited {
+	//  background-color:#e5e5e5;
+	padding:15px;
+	margin-top:7px;
+	display:block;
+	width:100%;
+	color:0000FF;
+	font-weight: bold;
+}
+
+body main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+main img {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: .5em;
+	height: 100%;
+	max-height: 400px;
+}
+
+.middle {
+	text-align:center;
+	padding:15px;
+	margin-top:7px;
+}
+
+
+.left {
+	//  background-color:#e5e5e5;
+	float:left;
+	width:20%;
+	padding:15px;
+	margin-top:7px;
+	text-align:center;
+}
+
+
+.right {
+	//  background-color:#e5e5e5;
+	float:left;
+	width:20%;
+	padding:15px;
+	margin-top:7px;
+	text-align:left;
+}
+
+.IndexRightFirstSentence {
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: left;
+
+}
+
+.IndexRightSecondSentence {
+	font-size: 1.2em;
+	font-style: italic;
+	text-align:right; 
+	
+}
+.FirstSentence {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.SecondSentence {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+
+
